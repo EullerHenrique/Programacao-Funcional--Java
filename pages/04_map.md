@@ -9,10 +9,13 @@
 - Tipo: 
     - Operação Intermediária
 
-- Descrição: 
+- Descrição:
+    - Retorna um fluxo mapeado, ou seja, um fluxo que contém os resultados da aplicação da função fornecida no fluxo original 
 
 - Exemplo: 
     ```
+    List numeros = Arrays.asList(2, 4, 8, 10);
+    List raizez_quadradas = number.stream().map(x->x*x).collect(Collectors.toList());
     ```
 - Diagrama:
 
