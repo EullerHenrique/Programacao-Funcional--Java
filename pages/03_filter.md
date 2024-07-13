@@ -3,6 +3,9 @@
 - Definição: 
    - Stream<T> filter(Predicate<? super T> predicate)
 
+- Parâmetro:
+    - Predicado
+    
 - Tipo: 
     - Operação Intermediária
 
