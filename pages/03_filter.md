@@ -7,7 +7,7 @@
     - Operação Intermediária
 
 - Descrição: 
-    - Retorna um novo fluxo que contém os elementos do fluxo original que atendeu ao predicado fornecido
+    - Retorna um fluxo filtrado, ou seja, um fluxo que contém os elementos do fluxo original que atendeu ao predicado fornecido
 
 - Exemplo: 
     ```
