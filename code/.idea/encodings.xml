@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-agendamento/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-email-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-email-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-faturamento/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-horas-extras/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-relatorios/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-tarefas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-timesheet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-usuario/src/main/java" charset="UTF-8" />
+  </component>
+</project>

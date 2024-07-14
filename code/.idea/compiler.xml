@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ms-faturamento" />
+        <module name="ms-email-consumer" />
+        <module name="ms-agendamento" />
+        <module name="ms-timesheet" />
+        <module name="ms-tarefas" />
+        <module name="ms-relatorios" />
+        <module name="ms-email-producer" />
+        <module name="ms-usuario" />
+        <module name="ms-horas-extras" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-agendamento" options="-parameters" />
+      <module name="ms-email-consumer" options="-parameters" />
+      <module name="ms-email-producer" options="-parameters" />
+      <module name="ms-faturamento" options="-parameters" />
+      <module name="ms-horas-extras" options="-parameters" />
+      <module name="ms-relatorios" options="-parameters" />
+      <module name="ms-tarefas" options="-parameters" />
+      <module name="ms-timesheet" options="-parameters" />
+      <module name="ms-usuario" options="-parameters" />
+    </option>
+  </component>
+</project>
