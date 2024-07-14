@@ -15,9 +15,9 @@
 - Exemplo: 
     ```
 	List<Pessoa> pessoas = Arrays.asList(
-				new Pessoa("João", new ArrayList<>(Arrays.asList("Vermelho", "Azul"))),
-				new Pessoa("Maria", new ArrayList<>(Arrays.asList("Verde", "Amarelo"))),
-				new Pessoa("José", new ArrayList<>(List.of("Roxo")))
+		new Pessoa("João", new ArrayList<>(Arrays.asList("Vermelho", "Azul"))),
+		new Pessoa("Maria", new ArrayList<>(Arrays.asList("Verde", "Amarelo"))),
+		new Pessoa("José", new ArrayList<>(List.of("Roxo")))
 	);
 	List<String> cores_favoritas = 
         pessoas.stream()
