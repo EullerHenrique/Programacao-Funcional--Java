@@ -1,6 +1,8 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Main {
 	public static void main(String[] args) {
@@ -35,5 +37,18 @@ public class Main {
 		List<Double> numeros_double = numeros_string_double.stream().mapToDouble(Double::parseDouble).boxed().toList();
 		System.out.println(numeros_double);
 
+		//Flat Map
+		System.out.println("Flat Map");
+
+		List<Pessoa> pessoas = Arrays.asList(
+				new Pessoa("Alice", new ArrayList<>(Arrays.asList("Vermelho", "Azul"))),
+				new Pessoa("Bob", new ArrayList<>(Arrays.asList("Verde", "Amarelo"))),
+				new Pessoa("Charlie", new ArrayList<>(List.of("Roxo")))
+		);
+		List<String> cores_favoritas = pessoas.stream().flatMap(p -> {
+			p.addCorFavorita("Cinza");
+			return p.getCoresFavoritas().stream();
+		}).toList();
+		System.out.println(cores_favoritas);
 	}
 }
