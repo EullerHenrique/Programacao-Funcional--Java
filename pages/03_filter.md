@@ -14,8 +14,8 @@
 
 - Exemplo: 
     ```
-    List nomes = Arrays.asList("Programação","Funcional", "Função", "Predicado");
-    List resultado = names.stream().filter(s->s.startsWith("F"));
+    List<String> nomes = Arrays.asList("Programação","Funcional", "Função", "Predicado");
+    List<String> resultado = names.stream().filter(s->s.startsWith("F"));
     ```
 - Diagrama:
 
