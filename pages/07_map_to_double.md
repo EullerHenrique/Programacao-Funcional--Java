@@ -10,7 +10,7 @@
     - Função To Double
 
 - Retorno:
-    - Retorna um fluxo double mapeado, ou seja, um fluxo que contém os resultados da aplicação da função to int fornecida no fluxo original 
+    - Retorna um fluxo double mapeado, ou seja, um fluxo que contém os resultados da aplicação da função to double fornecida no fluxo original 
 
 - Exemplo: 
     ```

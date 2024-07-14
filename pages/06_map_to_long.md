@@ -10,7 +10,7 @@
     - Função To Long
 
 - Retorno:
-    - Retorna um fluxo long mapeado, ou seja, um fluxo que contém os resultados da aplicação da função to int fornecida no fluxo original 
+    - Retorna um fluxo long mapeado, ou seja, um fluxo que contém os resultados da aplicação da função to long fornecida no fluxo original 
 
 - Exemplo: 
     ```
