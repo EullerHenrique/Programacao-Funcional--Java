@@ -3,19 +3,19 @@
 - Definição: 
    - Stream<T> filter(Predicate<? super T> predicate)
 
-- Parâmetro:
-    - Predicado
-    
 - Tipo: 
     - Operação Intermediária
 
-- Descrição: 
+- Parâmetro:
+    - Predicado
+
+- Retorno: 
     - Retorna um fluxo filtrado, ou seja, um fluxo que contém os elementos do fluxo original que atendeu ao predicado fornecido
 
 - Exemplo: 
     ```
     List<String> nomes = Arrays.asList("Programação","Funcional", "Função", "Predicado");
-    List<String> resultado = names.stream().filter(s->s.startsWith("F"));
+	List<String> nomes_filtrados = nomes.stream().filter(s->s.startsWith("F")).toList();
     ```
 - Diagrama:
 

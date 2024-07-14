@@ -3,19 +3,19 @@
 - Definição: 
     - <R> Stream<R> map(Function<? super T,? extends R> mapper)
 
+- Tipo: 
+    - Operação Intermediária
+    
 - Parâmetro:
     - Função
 
-- Tipo: 
-    - Operação Intermediária
-
-- Descrição:
+- Retorno:
     - Retorna um fluxo mapeado, ou seja, um fluxo que contém os resultados da aplicação da função fornecida no fluxo original 
 
 - Exemplo: 
     ```
     List<Integer> numeros = Arrays.asList(2, 4, 8, 10);
-    List<Integer> raizez_quadradas = number.stream().map(x->x*x).toList();
+    List<Integer> raizez_quadradas = numeros.stream().map(x->x*x).toList();
     ```
 - Diagrama:
 
