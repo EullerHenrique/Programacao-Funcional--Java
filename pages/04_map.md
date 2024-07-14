@@ -15,7 +15,7 @@
 - Exemplo: 
     ```
     List numeros = Arrays.asList(2, 4, 8, 10);
-    List raizez_quadradas = number.stream().map(x->x*x).collect(Collectors.toList());
+    List raizez_quadradas = number.stream().map(x->x*x).toList();
     ```
 - Diagrama:
 
