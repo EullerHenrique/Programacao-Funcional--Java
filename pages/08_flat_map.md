@@ -19,11 +19,13 @@
 				new Pessoa("Maria", new ArrayList<>(Arrays.asList("Verde", "Amarelo"))),
 				new Pessoa("José", new ArrayList<>(List.of("Roxo")))
 	);
-	List<String> cores_favoritas = pessoas.stream()
-        .flatMap(p -> {
-			p.addCorFavorita("Cinza");
-			return p.getCoresFavoritas().stream();
-	}).toList();
+	List<String> cores_favoritas = 
+        pessoas.stream()
+                .flatMap(p -> {
+			        p.addCorFavorita("Cinza");
+			        return p.getCoresFavoritas().stream();
+	            })
+                .toList();
     ```
 
 - Diagrama:
