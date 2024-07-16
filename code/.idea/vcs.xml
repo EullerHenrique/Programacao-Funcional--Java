@@ -3,14 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-agendamento" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-email-consumer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-email-producer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-faturamento" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-horas-extras" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-relatorios" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-tarefas" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-timesheet" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-usuario" vcs="Git" />
   </component>
 </project>

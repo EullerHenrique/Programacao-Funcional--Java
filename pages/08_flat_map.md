@@ -1,4 +1,4 @@
-# Flat Map - [Mapa plano]
+# Flat Map - [Mapa Plano]
 
 - Definição: 
     - <R> Stream<R> flatMap(Function<? super T,? extends Stream<? extends R>> mapper)

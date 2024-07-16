@@ -1,25 +1,31 @@
-# Flat Map Long - [Mapa Plano Long]
+# Flat Map Double - [Mapa Double Plano]
 
 - Definição: 
-    - DoubleStream mapToDouble(ToDoubleFunction<? super T> mapper)
+    - DoubleStream flatMapToDouble(Function<? super T,? extends DoubleStream> mapper)
+
 
 - Tipo: 
     - Operação Intermediária
 
 - Parâmetro:
-    - Função To Double
+    - Função Double
 
 - Retorno:
-    - Retorna um fluxo double mapeado, ou seja, um fluxo que contém os resultados da aplicação da função to double fornecida no fluxo original 
+    - Retorna um fluxo double mapeado de forma plana, ou seja, um fluxo que contém a unificação de vários fluxos que podem ter sido alterados ou não
 
 - Exemplo: 
     ```
-    List<String> numeros_string_double = Arrays.asList("1.4", "2.7", "3.2", "4.6");
-	List<Double> numeros_double = numeros_string_double.stream().mapToDouble(Double::parseDouble).boxed().toList();
+	List<List<Double>> numeros_lista_double = Arrays.asList(
+				Arrays.asList(1.1, 2.2, 3.3),
+				Arrays.asList(4.4, 5.5, 6.6),
+				Arrays.asList(7.7, 8.8, 9.9)
+		);
+	List<Double> numeros_flat_map_double = numeros_lista_double.stream().flatMapToDouble(l -> l.stream().mapToDouble(i -> i*i)).boxed().toList();
     ```
+
 - Diagrama:
 
-    ![Map](../images/04_map.png)
+    ![Flat Map](../images/05_flat_map.png)
 
 - Fonte: 
     - https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html

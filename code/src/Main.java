@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class Main {
 	public static void main(String[] args) {
@@ -50,5 +49,40 @@ public class Main {
 			return p.getCoresFavoritas().stream();
 		}).toList();
 		System.out.println(cores_favoritas);
+
+		//Flat Map Int
+		System.out.println("Flat Map Int");
+
+		List<List<Integer>> numeros_lista = Arrays.asList(
+				Arrays.asList(1, 2, 3),
+				Arrays.asList(4, 5, 6),
+				Arrays.asList(7, 8, 9)
+		);
+		List<Integer> numeros_flat_map_int = numeros_lista.stream().flatMapToInt(l -> l.stream().mapToInt(i -> i*i)).boxed().toList();
+		System.out.println(numeros_flat_map_int);
+
+		//Flat Map Long
+		System.out.println("Flat Map Long");
+
+		List<List<Long>> numeros_lista_long = Arrays.asList(
+				Arrays.asList(100L, 121L, 141L),
+				Arrays.asList(200L, 121L, 1213L),
+				Arrays.asList(300L, 500L, 12312L)
+		);
+
+		List<Long> numeros_flat_map_long = numeros_lista_long.stream().flatMapToLong(l -> l.stream().mapToLong(i -> i*i)).boxed().toList();
+		System.out.println(numeros_flat_map_long);
+
+		//Flat Map Double
+		System.out.println("Flat Map Double");
+
+		List<List<Double>> numeros_lista_double = Arrays.asList(
+				Arrays.asList(1.1, 2.2, 3.3),
+				Arrays.asList(4.4, 5.5, 6.6),
+				Arrays.asList(7.7, 8.8, 9.9)
+		);
+		List<Double> numeros_flat_map_double = numeros_lista_double.stream().flatMapToDouble(l -> l.stream().mapToDouble(i -> i*i)).boxed().toList();
+		System.out.println(numeros_flat_map_double);
+
 	}
 }

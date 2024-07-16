@@ -15,6 +15,19 @@
         <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-agendamento/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-agendamento/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-email-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-email-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-faturamento/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-horas-extras/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-relatorios/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-tarefas/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-timesheet/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../../../Work/A.R.PHOENIX/Sistemas-Internos/Microsserviços/ms-usuario/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

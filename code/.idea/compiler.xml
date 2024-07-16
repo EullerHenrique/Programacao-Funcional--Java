@@ -6,17 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ms-faturamento" />
-        <module name="ms-email-consumer" />
-        <module name="ms-agendamento" />
-        <module name="ms-timesheet" />
-        <module name="ms-tarefas" />
-        <module name="ms-relatorios" />
-        <module name="ms-email-producer" />
-        <module name="ms-usuario" />
-        <module name="ms-horas-extras" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-agendamento" target="17" />
+      <module name="ms-email-consumer" target="17" />
+      <module name="ms-email-producer" target="17" />
+      <module name="ms-faturamento" target="17" />
+      <module name="ms-horas-extras" target="17" />
+      <module name="ms-relatorios" target="17" />
+      <module name="ms-tarefas" target="17" />
+      <module name="ms-timesheet" target="17" />
+      <module name="ms-usuario" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
