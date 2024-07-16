@@ -9,4 +9,8 @@
 5. [Map To Int](pages/05_map_to_int.md)
 6. [Map To Long](pages/06_map_to_long.md)
 7. [Map To Double](pages/07_map_to_double.md)
+7. [Flat Map](pages/07_map_to_double.md)
+7. [Flat Map To Int](pages/08_flat_map_to_double.md)
+7. [Flat Map To Long](pages/09_flat_map_to_double.md)
+7. [Flat Map To Double](pages/10_flat_map_to_double.md)
 
