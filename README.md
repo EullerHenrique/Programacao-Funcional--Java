@@ -13,4 +13,6 @@
 9. [Flat Map To Int](pages/09_flat_map_to_double.md)
 10. [Flat Map To Long](pages/10_flat_map_to_double.md)
 11. [Flat Map To Double](pages/11_flat_map_to_double.md)
-
+12. [Distinct](pages/12_distinct.md)
+13. [Sorted](pages/13_sorted.md)
+14. [Sorted Comparator](pages/14_sorted_comparator.md)
