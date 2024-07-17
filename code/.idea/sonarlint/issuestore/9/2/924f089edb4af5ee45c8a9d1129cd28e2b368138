@@ -1,41 +1,47 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛûıÁûÿÿÿÿ8°ÊÜÉ‹2
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á™Ş°ÿÿÿÿÿ8°ÊÜÉ‹2
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÀ”©ÿÿÿÿÿ8°ÊÜÉ‹2
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©€–˜øÿÿÿÿ8±ÊÜÉ‹2
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»”¹şÿÿÿÿ8±ÊÜÉ‹2
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èóİ—ùÿÿÿÿ8±ÊÜÉ‹2
-m	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥´»¡8±ÊÜÉ‹2
-r	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¥¢ûÿÿÿÿ8±ÊÜÉ‹2
-m	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óåºã8±ÊÜÉ‹2
-r	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÔÁ‹úÿÿÿÿ8±ÊÜÉ‹2
-r	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ·´àúÿÿÿÿ8²ÊÜÉ‹2
-r	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¨úÿÿÿÿ8ÂÍçÉ‹2
-r	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍ§³üÿÿÿÿ8”èÉ‹2
-m	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğî™÷8ŞÊîÉ‹2
-r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ê€úÿÿÿÿ8ŞÊîÉ‹2
-r	java:S117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ëØæùÿÿÿÿ8²¬øò‹2
-m	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ä¯œ8²¬øò‹2
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛûıÁûÿÿÿÿ8ÏÛÓó‹2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á™Ş°ÿÿÿÿÿ8ÏÛÓó‹2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÀ”©ÿÿÿÿÿ8ÏÛÓó‹2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©€–˜øÿÿÿÿ8ÏÛÓó‹2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»”¹şÿÿÿÿ8ÏÛÓó‹2
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èóİ—ùÿÿÿÿ8ÏÛÓó‹2
+m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥´»¡8ÏÛÓó‹2
+r	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¥¢ûÿÿÿÿ8ÏÛÓó‹2
+m	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óåºã8ÏÛÓó‹2
+r	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÔÁ‹úÿÿÿÿ8ÏÛÓó‹2
+r	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ·´àúÿÿÿÿ8ÏÛÓó‹2
+r	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¨úÿÿÿÿ8ÏÛÓó‹2
+r	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍ§³üÿÿÿÿ8ÏÛÓó‹2
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğî™÷8ÏÛÓó‹2
+r	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ê€úÿÿÿÿ8ÏÛÓó‹2
+r	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ëØæùÿÿÿÿ8ÏÛÓó‹2
+m	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ä¯œ8ÏÛÓó‹2
+r	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿£Îÿÿÿÿÿ8ÏÛÓó‹2
+r	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÍŞèøÿÿÿÿ8ÏÛÓó‹2
+m	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÇ½ÿ8ÏÛÓó‹2
+m	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¶¼Ğ8ÏÛÓó‹2
+G	java:S106"+Replace this use of System.out by a logger.(µ‘â8İÛÓó‹2
 G	java:S106
-"+Replace this use of System.out by a logger.(µ‘â8ÊÊÜÉ‹2
-G	java:S106"+Replace this use of System.out by a logger.(şïÎÉ8ËÊÜÉ‹2
-L	java:S106"+Replace this use of System.out by a logger.(­‹¼úÿÿÿÿ8ËÊÜÉ‹2
-L	java:S106"+Replace this use of System.out by a logger.(£öÿÿÿÿÿ8ËÊÜÉ‹2
-L	java:S106"+Replace this use of System.out by a logger.(Šş—¥øÿÿÿÿ8ÌÊÜÉ‹2
-G	java:S106"+Replace this use of System.out by a logger.(Ë½¯Ñ8ÌÊÜÉ‹2
-G	java:S106"+Replace this use of System.out by a logger.(ÛÀºì8ÌÊÜÉ‹2
-L	java:S106"+Replace this use of System.out by a logger.(‰›ÅÊûÿÿÿÿ8ÍÊÜÉ‹2
-G	java:S106""+Replace this use of System.out by a logger.(¥ˆÔ8ÍÊÜÉ‹2
-L	java:S106%"+Replace this use of System.out by a logger.(Ğ¤ªşøÿÿÿÿ8ÍÊÜÉ‹2
-L	java:S106("+Replace this use of System.out by a logger.(Îçñúûÿÿÿÿ8ÍÊÜÉ‹2
-G	java:S1063"+Replace this use of System.out by a logger.(šÚåÕ8ÏÊÜÉ‹2
-G	java:S1066"+Replace this use of System.out by a logger.(ˆµ°8ÏÊÜÉ‹2
-L	java:S106>"+Replace this use of System.out by a logger.(†ôÛøúÿÿÿÿ8È±İÉ‹2
-L	java:S106A"+Replace this use of System.out by a logger.(½×ó«ÿÿÿÿÿ8ÖÍçÉ‹2
-L	java:S106J"+Replace this use of System.out by a logger.(ûŠ‘Ùûÿÿÿÿ8¤”èÉ‹2
-G	java:S106M"+Replace this use of System.out by a logger.(¥„8ğÊîÉ‹2
-L	java:S106U"+Replace this use of System.out by a logger.(§å†êúÿÿÿÿ8ñÊîÉ‹2
-L	java:S106X"+Replace this use of System.out by a logger.(Ç‡²‚øÿÿÿÿ8€­øò‹2
-L	java:S106["+Replace this use of System.out by a logger.(˜øıÿÿÿÿ8­øò‹2
-S
-java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ùùùò‹2
+"+Replace this use of System.out by a logger.(şïÎÉ8ŞÛÓó‹2
+L	java:S106"+Replace this use of System.out by a logger.(­‹¼úÿÿÿÿ8ŞÛÓó‹2
+L	java:S106"+Replace this use of System.out by a logger.(£öÿÿÿÿÿ8ŞÛÓó‹2
+L	java:S106"+Replace this use of System.out by a logger.(Šş—¥øÿÿÿÿ8ŞÛÓó‹2
+G	java:S106"+Replace this use of System.out by a logger.(Ë½¯Ñ8ßÛÓó‹2
+G	java:S106"+Replace this use of System.out by a logger.(ÛÀºì8ßÛÓó‹2
+L	java:S106"+Replace this use of System.out by a logger.(‰›ÅÊûÿÿÿÿ8àÛÓó‹2
+G	java:S106"+Replace this use of System.out by a logger.(¥ˆÔ8àÛÓó‹2
+L	java:S106""+Replace this use of System.out by a logger.(Ğ¤ªşøÿÿÿÿ8àÛÓó‹2
+L	java:S106%"+Replace this use of System.out by a logger.(Îçñúûÿÿÿÿ8àÛÓó‹2
+G	java:S1060"+Replace this use of System.out by a logger.(šÚåÕ8âÛÓó‹2
+G	java:S1063"+Replace this use of System.out by a logger.(ˆµ°8âÛÓó‹2
+L	java:S106;"+Replace this use of System.out by a logger.(†ôÛøúÿÿÿÿ8ãÛÓó‹2
+L	java:S106>"+Replace this use of System.out by a logger.(½×ó«ÿÿÿÿÿ8ãÛÓó‹2
+L	java:S106G"+Replace this use of System.out by a logger.(ûŠ‘Ùûÿÿÿÿ8äÛÓó‹2
+G	java:S106J"+Replace this use of System.out by a logger.(¥„8äÛÓó‹2
+L	java:S106R"+Replace this use of System.out by a logger.(§å†êúÿÿÿÿ8äÛÓó‹2
+L	java:S106U"+Replace this use of System.out by a logger.(Ç‡²‚øÿÿÿÿ8äÛÓó‹2
+L	java:S106X"+Replace this use of System.out by a logger.(˜øıÿÿÿÿ8åÛÓó‹2
+F	java:S106["+Replace this use of System.out by a logger.(òç]8åÛÓó‹2
+G	java:S106^"+Replace this use of System.out by a logger.(öæß¹8åÛÓó‹2
+G	java:S106a"+Replace this use of System.out by a logger.(¯şÃÒ8åÛÓó‹2
+G	java:S106h"+Replace this use of System.out by a logger.(»›‡Á8æÛÓó‹2

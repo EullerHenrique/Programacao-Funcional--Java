@@ -1,28 +1,26 @@
 # Sorted - [Ordenado]
 
 - Definição: 
-    1. Stream<T> sorted()
-    2. Stream<T> sorted(Comparator<? super T> comparator)
+    - Stream<T> sorted()
 
 - Tipo: 
     - Operação Intermediária
 
 - Parâmetro:
-    1. Função Double
-    2. Função Comparator
+    - Nenhum
 
 - Retorno:
-    1. Retorna um fluxo double mapeado de forma plana, ou seja, um fluxo que contém a unificação de vários fluxos que podem ter sido alterados ou não
-    2. Retorna um fluxo double mapeado de forma plana, ou seja, um fluxo que contém a unificação de vários fluxos que podem ter sido alterados ou não
+    - Retorna um fluxo ordenado, ou seja, um fluxo que contém os elementos do fluxo original de forma ordenada
 
 - Exemplo: 
     ```
-
+  	List<Integer> numeros_desordenados = Arrays.asList(9, 8, 7, 6, 5, 4, 3, 2, 1);
+	List<Integer> numeros_ordenados = numeros_desordenados.stream().sorted().toList();
     ```
 
 - Diagrama:
 
-    ![Sorted](../images/06_flat_map.png)
+    ![Sorted](../images/13_sorted.png)
 
 - Fonte: 
     - https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html

@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
@@ -89,6 +86,22 @@ public class Main {
 		List<Integer> numeros_repetidos = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5);
 		List<Integer> numeros_distintos = numeros_repetidos.stream().distinct().toList();
 		System.out.println(numeros_distintos);
+
+		//Sorted
+		System.out.println("Sorted");
+		List<Integer> numeros_desordenados = Arrays.asList(9, 8, 7, 6, 5, 4, 3, 2, 1);
+		List<Integer> numeros_ordenados = numeros_desordenados.stream().sorted().toList();
+		System.out.println(numeros_ordenados);
+
+		//Sorted Comparator
+		System.out.println("Sorted Comparator");
+		List<Pessoa> pessoas_desordenadas = Arrays.asList(
+				new Pessoa("Alice", 20),
+				new Pessoa("Bob", 30),
+				new Pessoa("Charlie", 10)
+		);
+		List<String> nomes_pessoas_ordenadas = pessoas_desordenadas.stream().sorted(Comparator.comparingInt(Pessoa::getIdade)).map(Pessoa::getNome).toList();
+		System.out.println(nomes_pessoas_ordenadas);
 
 	}
 }
