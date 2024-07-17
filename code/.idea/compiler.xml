@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ms-relatorios" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -14,7 +15,6 @@
       <module name="ms-email-producer" target="17" />
       <module name="ms-faturamento" target="17" />
       <module name="ms-horas-extras" target="17" />
-      <module name="ms-relatorios" target="17" />
       <module name="ms-tarefas" target="17" />
       <module name="ms-timesheet" target="17" />
       <module name="ms-usuario" target="17" />

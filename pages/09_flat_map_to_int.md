@@ -3,7 +3,6 @@
 - Definição: 
     - IntStream flatMapToInt(Function<? super T,? extends IntStream> mapper)
 
-
 - Tipo: 
     - Operação Intermediária
 

@@ -14,6 +14,8 @@ r	java:S117C"QRename this local variable to match the regular expression '^[a-
 r	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÍ§³üÿÿÿÿ8”èÉ‹2
 m	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğî™÷8ŞÊîÉ‹2
 r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ê€úÿÿÿÿ8ŞÊîÉ‹2
+r	java:S117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ëØæùÿÿÿÿ8²¬øò‹2
+m	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ä¯œ8²¬øò‹2
 G	java:S106
 "+Replace this use of System.out by a logger.(µ‘â8ÊÊÜÉ‹2
 G	java:S106"+Replace this use of System.out by a logger.(şïÎÉ8ËÊÜÉ‹2
@@ -33,5 +35,7 @@ L	java:S106A"+Replace this use of System.out by a logger.(½×ó«ÿÿÿÿÿ8ÖÍçÉ‹2
 L	java:S106J"+Replace this use of System.out by a logger.(ûŠ‘Ùûÿÿÿÿ8¤”èÉ‹2
 G	java:S106M"+Replace this use of System.out by a logger.(¥„8ğÊîÉ‹2
 L	java:S106U"+Replace this use of System.out by a logger.(§å†êúÿÿÿÿ8ñÊîÉ‹2
+L	java:S106X"+Replace this use of System.out by a logger.(Ç‡²‚øÿÿÿÿ8€­øò‹2
+L	java:S106["+Replace this use of System.out by a logger.(˜øıÿÿÿÿ8­øò‹2
 S
-java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8Ç¤éÉ‹2
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ùùùò‹2

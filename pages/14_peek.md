@@ -1,7 +1,7 @@
-# Flat Map Double - [Mapa Double Plano]
+# Peek - []
 
 - Definição: 
-    - DoubleStream flatMapToDouble(Function<? super T,? extends DoubleStream> mapper)
+    - Stream<T> peek(Consumer<? super T> action)
 
 - Tipo: 
     - Operação Intermediária

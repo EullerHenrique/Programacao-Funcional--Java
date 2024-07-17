@@ -84,5 +84,11 @@ public class Main {
 		List<Double> numeros_flat_map_double = numeros_lista_double.stream().flatMapToDouble(l -> l.stream().mapToDouble(i -> i*i)).boxed().toList();
 		System.out.println(numeros_flat_map_double);
 
+		//Distinct
+		System.out.println("Distinct");
+		List<Integer> numeros_repetidos = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5);
+		List<Integer> numeros_distintos = numeros_repetidos.stream().distinct().toList();
+		System.out.println(numeros_distintos);
+
 	}
 }
