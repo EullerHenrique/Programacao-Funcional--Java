@@ -16,3 +16,5 @@
 12. [Distinct](pages/12_distinct.md)
 13. [Sorted](pages/13_sorted.md)
 14. [Sorted Comparator](pages/14_sorted_comparator.md)
+15. [Peek](pages/15_peek.md)
+
