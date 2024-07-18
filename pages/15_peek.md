@@ -15,13 +15,12 @@
 - Exemplo: 
     ```
     List<Pessoa> pessoas_peek = Arrays.asList(new Pessoa("Alice", 20), new Pessoa("Bob", 30), new Pessoa("Charlie", 10));
-	pessoas_peek
-    .stream()
-    .map(p -> {
-	    p.setNome(p.getNome().toUpperCase());
-		return p;
-	})
-    .peek(pessoa -> System.out.println("Nome: " + pessoa.getNome())).toList();
+	pessoas_peek.stream()
+                .map(p -> {
+	                p.setNome(p.getNome().toUpperCase());
+		            return p;
+	            })
+                .peek(pessoa -> System.out.println("Nome: " + pessoa.getNome())).toList();
     ```
 
 - Diagrama:
