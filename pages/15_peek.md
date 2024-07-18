@@ -1,4 +1,4 @@
-# Peek - [Espiar]
+# Peek - [Espiar/Observar]
 
 - Definição: 
     - Stream<T> peek(Consumer<? super T> action)
@@ -10,7 +10,7 @@
     - Função Consumer [Não possui retorno] 
 
 - Retorno:
-    -- Retorna um fluxo utilizado exclusivamente para debug, ou seja, contém um fluxo que proporciona uma espiadinha no fluxo original
+    - Retorna um fluxo utilizado exclusivamente para debugar, ou seja, contém um fluxo que permite que o fluxo original seja espiado/observado
 
 - Exemplo: 
     ```
