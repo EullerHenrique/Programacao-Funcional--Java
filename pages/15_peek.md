@@ -1,4 +1,4 @@
-# Peek - []
+# Peek - [Espiar]
 
 - Definição: 
     - Stream<T> peek(Consumer<? super T> action)
@@ -7,24 +7,26 @@
     - Operação Intermediária
 
 - Parâmetro:
-    - Função Double
+    - Função Consumer [Não possui retorno] 
 
 - Retorno:
-    - Retorna um fluxo double mapeado de forma plana, ou seja, um fluxo que contém a unificação de vários fluxos que podem ter sido alterados ou não
+    -- Retorna um fluxo utilizado exclusivamente para debug, ou seja, contém um fluxo que proporciona uma espiadinha no fluxo original
 
 - Exemplo: 
     ```
-	List<List<Double>> numeros_lista_double = Arrays.asList(
-				Arrays.asList(1.1, 2.2, 3.3),
-				Arrays.asList(4.4, 5.5, 6.6),
-				Arrays.asList(7.7, 8.8, 9.9)
-		);
-	List<Double> numeros_flat_map_double = numeros_lista_double.stream().flatMapToDouble(l -> l.stream().mapToDouble(i -> i*i)).boxed().toList();
+    List<Pessoa> pessoas_peek = Arrays.asList(new Pessoa("Alice", 20), new Pessoa("Bob", 30), new Pessoa("Charlie", 10));
+	pessoas_peek
+    .stream()
+    .map(p -> {
+			p.setNome(p.getNome().toUpperCase());
+			return p;
+	})
+    .peek(pessoa -> System.out.println("Nome: " + pessoa.getNome())).toList();
     ```
 
 - Diagrama:
 
-    ![Flat Map](../images/05_flat_map.png)
+    ![Peek](../images/15_peek.png)
 
 - Fonte: 
     - https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
