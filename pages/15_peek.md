@@ -18,8 +18,8 @@
 	pessoas_peek
     .stream()
     .map(p -> {
-			p.setNome(p.getNome().toUpperCase());
-			return p;
+	    p.setNome(p.getNome().toUpperCase());
+		return p;
 	})
     .peek(pessoa -> System.out.println("Nome: " + pessoa.getNome())).toList();
     ```
